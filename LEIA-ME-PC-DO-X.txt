@@ -1,0 +1,47 @@
+ETIQUETAS JONAS — PC DO X
+
+1. Extraia o ZIP completo em Documentos\EtiquetasJonas no computador do X.
+2. Abra EtiquetasJonas.exe com dois cliques. Não precisa instalar Python.
+3. Mantenha a pasta dados junto do EXE. Ela contém os responsáveis cadastrados.
+   Novas pessoas e remoções são salvas nessa pasta.
+4. É possível criar um atalho do EXE na área de trabalho.
+
+PREPARAR A IMPRESSORA UMA VEZ NESSE COMPUTADOR
+
+- Execute suporte\Driver-Elgin-Windows-2022.1.exe, instale o driver da
+  ELGIN L42PRO FULL e conecte a impressora por USB quando solicitado.
+- Nas preferências de impressão, selecione papel com largura 60 mm e altura 40 mm.
+- Em Papel de etiquetas, selecione Térmica direta e Etiquetas com intervalos.
+- Confira o intervalo do rolo. No computador de origem foi usado 3,1 mm.
+- Selecione a ELGIN L42PRO FULL no aplicativo. Se a lista estiver vazia, clique
+  em Atualizar impressoras depois de instalar o driver.
+- Teste 1 etiqueta; depois 2 para conferir margens e avanço.
+
+Driver oficial Windows 2022.1:
+https://content.elgin.com.br/assets/arquivos/portal-apoio-novo/278338f0-1c5e-4bc0-84fc-ff135f4deacd.exe
+
+Manual da versão Full no repositório da Elgin:
+https://github.com/ElginDeveloperCommunity/Impressoras/tree/master/Impressoras%20de%20Etiqueta/Elgin/L42PRO%20FULL/Documenta%C3%A7%C3%A3o
+
+Se for a mesma impressora e o mesmo rolo, confira a calibração pelo FEED:
+deve avançar uma etiqueta por vez. Não precisa recalibrar apenas por trocar de PC.
+Se avançar incorretamente, calibre seguindo o manual.
+Se o LED de ribbon piscar, confira o modo térmica direta; na sessão de testes
+foi necessário desligar e ligar a impressora para ela voltar a imprimir.
+
+USO DIÁRIO
+
+- Digite o produto, escolha datas no calendário e selecione o responsável.
+- Use + para adicionar um responsável e X para remover o selecionado.
+- Escolha conservação e quantidade, confira a prévia e imprima.
+- A confirmação no aplicativo significa envio ao Windows; confira a saída física.
+- O aplicativo não calcula a validade dos alimentos.
+
+BACKUP E ATUALIZAÇÃO
+
+- Faça backup da pasta dados. Não sobrescreva dados ao atualizar o aplicativo.
+- Para atualizar, feche o app e substitua apenas EtiquetasJonas.exe.
+- A pasta logs contém diagnóstico de impressão; os registros não incluem os
+  campos de produto/responsável das etiquetas.
+- Extraia o ZIP antes de usar. Não execute o programa de dentro do ZIP.
+- Esta entrega é para Windows de 64 bits. O PC do X ainda precisa ser testado.
